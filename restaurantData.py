@@ -1,6 +1,3 @@
-types = ['german', 'japanese', 'vegetarian', 'french', 'african', 'american', 'barbecue', 'czech', 'chinese', 'thai',
-         'mexican', 'indian', 'cafe', 'pizza', 'italian']
-
 restaurant_data = [['german', "Esther's German Saloon", '3', '3', '22 Teutonic Ave.'],
                    ['japanese', 'Robatayaki Hachi','4', '5', '8 Hawthorne Ln.'],
                    ['vegetarian', 'BBQ Tofu Paradise', '2', '1', '22A King West'],
