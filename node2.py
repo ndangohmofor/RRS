@@ -13,5 +13,17 @@ class Node:
     def get_next_node(self):
         return self.next_node
 
-    def get_value(self):
-        return self.food_type, self.name, self.rating, self.price, self.address
+    def get_food_type(self):
+        return self.food_type
+
+    def get_name(self):
+        return self.name
+
+    def get_rating(self):
+        return self.rating
+
+    def get_price(self):
+        return self.price
+
+    def get_address(self):
+        return self.address
