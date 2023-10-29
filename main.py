@@ -3,8 +3,6 @@ from restaurantTypes import types
 from linkedlist import LinkedList
 from welcome import welcome
 
-welcome()
-
 
 # Insert food types into a data structure (LinkedList)
 def insert_food_types(food_list):
@@ -28,6 +26,8 @@ def insert_restau_data(restau_data, foot_list):
 
 my_food_list = insert_food_types(types)
 my_restaurant_list = insert_restau_data(restaurant_data, types)
+
+welcome()
 
 selected_food_type = ""
 
