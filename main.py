@@ -13,9 +13,9 @@ def insert_food_types(food_list):
 
 
 # Insert restaurant data into a data structure (LinkedList of LinkedList)
-def insert_restau_data(restau_data, foot_list):
+def insert_restau_data(restau_data, food_list):
     restaurant_data_list = LinkedList()
-    for food_type in foot_list:
+    for food_type in food_list:
         restaurant_sublist = LinkedList()
         for restau in restau_data:
             if restau[0] == food_type:
