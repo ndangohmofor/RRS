@@ -1,5 +1,5 @@
 class Node:
-    def __init__(self, food_type, name, rating, price, address, next_node=None):
+    def __init__(self, food_type, name=None, rating=None, price=None, address=None, next_node=None):
         self.food_type = food_type
         self.name = name
         self.rating = rating
