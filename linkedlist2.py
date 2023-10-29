@@ -8,7 +8,7 @@ class LinkedList:
     def get_head_node(self):
         return self.head_node
 
-    def insert_beginning(self, new_food_type, new_name, new_rating, new_price, new_address):
+    def insert_beginning(self, new_food_type, new_name=None, new_rating=None, new_price=None, new_address=None):
         new_node = Node(new_food_type, new_name, new_rating, new_price, new_address)
         new_node.set_next_node(self.head_node)
         self.head_node = new_node
