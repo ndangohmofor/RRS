@@ -55,7 +55,7 @@ while len(selected_food_type) == 0:
             "\nThe only matching type for the specified input is " + food_type_matches[
                 0] + ". \nDo you want to look at " +
             food_type_matches[0] + "restaurants?"
-                                   "Enter y for yes and n for no\n"
+                                   " Enter y for yes and n for no\n"
         )).lower()
         # if user selects yes, retrieve the restaurant data here
         if selected_input == 'y':
@@ -64,7 +64,7 @@ while len(selected_food_type) == 0:
             restaurant_list_head = my_restaurant_list.get_head_node()
 
             while restaurant_list_head.get_next_node():
-                sublist_head = restaurant_list_head.get_food_type().get_next_node()
+                sublist_head = restaurant_list_head.get_food_type().get_head_node().get_next_node()
 
                 if sublist_head.get_food_type() == selected_food_type:
                     while sublist_head.get_next_node():
